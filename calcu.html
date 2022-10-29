@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="calcu.css">
+   <script src="CALCU.js"></script>
+   <!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+    
+</head>
+<script>
+
+
+  
+</script>
+<body>
+  <div class="container">
+    <div id="header">
+      <h3>Calculator</h3></div>
+    <div id="calc" class="text-center">
+      <div id="display">
+      <div id="result"><p>0</p></div>
+      <div id="previous"><p>0</p></div>
+      </div>
+        <div id="keyboard">
+        <div class="row">
+          <button class="btn btn-info" value="7" onclick="display('7')"> 7</button>
+          <button class="btn btn-info" value="8" onclick="display('8')" >8</button>
+          <button class="btn btn-info" value="9" onclick="display('9')">9</button>
+          <button class="btn btn-danger" value="ac" onclick="clear1() ">AC</button>
+          <button class="btn btn-danger" value="ce" onclick="back()">DEL</button>
+        </div>
+        <div class="row">
+          <button class="btn btn-info" value="4" onclick="display('4')">4</button>
+          <button class="btn btn-info" value="5" onclick="display('5')">5</button>
+          <button class="btn btn-info" value="6" onclick="display('6')">6</button>
+          <button class="btn btn-warning" value="/" onclick="display('/')">/</button>
+          <button class="btn btn-warning" value="*" onclick="display('*')">*</button>
+        </div>
+        <div class="row">
+          <button class="btn btn-info" value="1" onclick="display('1')">1</button>
+          <button class="btn btn-info" value="2" onclick="display('2')">2</button>
+          <button class="btn btn-info" value="3" onclick="display('3')">3</button>
+          <button class="btn btn-warning" value="+" onclick="display('+')">+</button>
+          <button class="btn btn-success btn-result" value="=" onclick="calculation()">=</button>
+          
+        </div>
+        <div class="row last-row">
+          <button class="btn btn-info btn-zero" value="0" onclick="display('0')">0</button>
+           <!-- <button class="invisible" value=""></button> -->
+          <button class="btn btn-warning" value="."onclick="display('.')">.</button>
+          <button class="btn btn-warning" value="-"onclick="display('-')">-</button>
+          <!-- <button class="invisible" value=""></button> -->
+          
+        </div>
+      </div>
+    </div>
+  </div>
+  
+
+
+
+
+
+
+</body>
+
+  
